@@ -11,7 +11,7 @@ main {
     float: left;
 }
 header {
-    position: :sticky;
+    position: sticky;
     top: 0;
 }
 footer {
