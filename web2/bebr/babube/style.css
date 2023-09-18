@@ -8,5 +8,10 @@ main {
 .logo {
     width: 125px;
     margin: 10px;
-    flex: left;
+    float: left;
+}
+header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
