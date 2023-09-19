@@ -6,16 +6,56 @@ main {
     margin: 25px auto;
 }
 .logo {
-    width: 125px;
+    width: 100px;
     margin: 10px;
     float: left;
 }
+
 header {
     position: sticky;
     top: 0;
+    background-color: rgb(73, 125, 238);
+    height: 120px;
+    padding: 0px;
 }
+
 footer {
     position: fixed;
-    bottom: 0;
     left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(73, 125, 238);
+    text-align: left;
+    padding: 25px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+#links {
+    float: right;
+    padding: 5px;
+    border: 2px solid black;
+    border-top: 0;
+    border-right: 0;
+}
+
+.link{
+    padding: 25px;
+    font-size: 35px;
+}
+
+.headertext {
+    font-size: 50px;
+    padding: 25px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+.odd-row {
+    background-color: #000000;
+    color: rgb(219, 219, 219);
+}
+
+.even-row {
+    background-color: rgb(73, 125, 238);
 }
