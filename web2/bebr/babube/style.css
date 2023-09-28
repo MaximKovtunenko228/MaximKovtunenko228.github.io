@@ -2,7 +2,7 @@ body {
     margin: 0
 }
 main {
-    max-width: 960px; 
+    width: 100%
     margin: 25px auto;
 }
 .logo {
@@ -12,15 +12,16 @@ main {
 }
 
 header {
-    position: sticky;
+    width: 100%;
     top: 0;
     background-color: rgb(73, 125, 238);
     height: 120px;
     padding: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -37,6 +38,7 @@ footer {
     border: 2px solid black;
     border-top: 0;
     border-right: 0;
+    display: flex;
 }
 
 .link{
@@ -49,6 +51,7 @@ footer {
     padding: 25px;
     padding-left: 200px;
     font-weight: bold;
+    display: flex;
 }
 
 .odd-row {
